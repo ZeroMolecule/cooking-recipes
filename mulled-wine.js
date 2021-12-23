@@ -2,7 +2,7 @@ import { wine, spiceMix } from 'gift';
 import { sugar, pot } from 'kitchen';
 import { enjoy } from 'life';
 
-pot.add(wine, 0.25, 'l');
+pot.add(wine, 0.25, 'L');
 pot.add(sugar, 1, 'tbsp');
 
 while(pot.isNotBoiling()){
@@ -10,7 +10,7 @@ while(pot.isNotBoiling()){
 }
 
 pot.add(spiceMix, 1, 'pack');
-pot.add(orangeJuice, 0.125, 'l');
+pot.add(orangeJuice, 0.125, 'L');
 
 while(pot.isNotBoiling()){
     pot.heat();
